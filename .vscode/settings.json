@@ -1,0 +1,7 @@
+{
+  "deno.enablePaths": [
+    "apps/server",
+    "packages/contracts"
+  ],
+  "deno.enable": true
+}
