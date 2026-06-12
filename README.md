@@ -2,7 +2,7 @@
 
 Deno + Hono + WebSocket + React | SolidJS
 
-<video controls src="https://github.com/n-shkutov/ws-random-color-grid/raw/refs/heads/main/assets/ws-colors.mp4" title="Demo <3"></video>
+![Demo](https://github.com/user-attachments/assets/cd6445ec-3822-4cab-bc50-6ac07ea0615a)
 
 ---
 
