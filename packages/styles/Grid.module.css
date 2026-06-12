@@ -1,0 +1,7 @@
+.grid {
+    padding: 0 1rem 1rem;
+
+    display: grid;
+
+    height: 100%;
+}

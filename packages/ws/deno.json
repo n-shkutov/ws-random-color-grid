@@ -1,0 +1,4 @@
+{
+  "name": "@app/ws",
+  "exports": { ".": "./mod.ts" }
+}

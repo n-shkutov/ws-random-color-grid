@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    // General
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "target": "ESNext",
+
+    // Modules
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+
+    // Type Checking & Safety
+    "strict": true,
+    "types": ["vite/client"],
+
+    "paths": {
+      "@app/contracts": ["../../packages/contracts/mod.ts"],
+      "@app/utils": ["../../packages/utils/mod.ts"],
+      "@app/ws": ["../../packages/ws/mod.ts"],
+
+      "@app/styles/*": ["../../packages/styles/*"]
+    }
+  }
+}

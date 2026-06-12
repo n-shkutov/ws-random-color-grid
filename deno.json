@@ -1,0 +1,30 @@
+{
+  "nodeModulesDir": "auto",
+  "workspace": [
+    "./packages/*",
+
+    "./apps/react",
+    "./apps/solid",
+    "./apps/server"
+  ],
+  "imports": {
+    "normalize.css": "npm:normalize.css@^8.0.1",
+    "typescript": "npm:typescript@^6.0.3",
+    "vite": "npm:vite@^8.0.16",
+    "zod": "npm:zod@^4.4.3"
+  },
+  "tasks": {
+    "react:dev": {
+      "command": "deno task --filter react dev",
+      "description": "React client only. Run server:dev separately"
+    },
+    "solid:dev": {
+      "command": "deno task --filter solid dev",
+      "description": "Solid client only. Run server:dev separately"
+    },
+    "server:dev": {
+      "command": "deno task --filter server dev",
+      "description": "Dev server"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+  --bg: #ffffff;
+  --text: #212529;
+  --accent: #007bff;
+  --border: #dee2e6;
+
+  color-scheme: light dark;
+
+  font-family: monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #e9ecef;
+    --accent: #3793ff;
+    --border: #444;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+#root {
+  height: 100dvh;
+}
