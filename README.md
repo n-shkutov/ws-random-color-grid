@@ -2,7 +2,7 @@
 
 Deno + Hono + WebSocket + React | SolidJS
 
-<video src="./assets/ws-colors.mp4" controls></video>
+<video controls src="https://github.com/n-shkutov/ws-random-color-grid/raw/refs/heads/main/assets/ws-colors.mp4" title="Demo <3"></video>
 
 ---
 
@@ -73,4 +73,4 @@ deno task react:dev   # :4000
 deno task solid:dev   # :3000
 ```
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/1tY5S3?referralCode=0lQmAz&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/calm-calm?referralCode=0lQmAz&utm_medium=integration&utm_source=template&utm_campaign=generic)
