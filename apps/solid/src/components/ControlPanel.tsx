@@ -1,4 +1,4 @@
-import { createEffect, Show } from "solid-js";
+import { createEffect, on, Show } from "solid-js";
 import {
   isRunning,
   setIsRunning,
@@ -19,11 +19,15 @@ export const ControlPanel = () => {
   const onStart = () => {
     setIsRunning(true);
     wsClient.start(settings);
+
+    navigator.vibrate(100);
   };
 
   const onStop = () => {
     setIsRunning(false);
     wsClient.stop();
+
+    navigator.vibrate(100);
   };
 
   createEffect(() => {
@@ -31,6 +35,20 @@ export const ControlPanel = () => {
       setIsRunning(false);
     }
   });
+
+  createEffect(
+    on(
+      [
+        () => settings.amount,
+        () => settings.speed,
+        () => gap(),
+      ],
+      () => {
+        navigator.vibrate(100);
+      },
+      { defer: true },
+    ),
+  );
 
   return (
     <div class={classes.controlPanel}>
