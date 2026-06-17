@@ -44,7 +44,7 @@ technical deep dives too
 
 ---
 
-> [!!WARNING] **Seizure/Epilepsy Trigger Warning** Please be aware that the grid
+> [!WARNING] **Seizure/Epilepsy Trigger Warning** Please be aware that the grid
 > pattern flashes rapidly at high speeds. Individuals sensitive to flashing
 > lights should operate the speed slider at a low setting
 
