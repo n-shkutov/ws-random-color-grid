@@ -2,38 +2,51 @@
 
 Deno + Hono + WebSocket + React | SolidJS
 
-
 https://github.com/user-attachments/assets/a70f4a67-18e8-457d-bd1b-934255d386a1
 
+---
+
+### Why this approach
+
+Any pre-interview test is essentially a "lazy filter" used for candidate
+screening. If the process involved only a handful of tasks, such as five at
+most, and offered a reasonable chance of success, such assignments could be
+justified as a method of verifying qualifications. However, when the number of
+required assignments becomes excessive or the time allotted is too short, it
+puts job seekers at a disadvantage. When combined with the multiple stages of
+the standard interview process, this creates an overwhelming stress factor.
+Therefore, I created this application because its diverse range of features
+should be sufficient to bypass the take-home assignment stage entirely
+
+### Security
+
+Scams targeting job seekers are on the rise. Running an unknown repo on your
+local machine with post-install scripts is a risk. Docker helps, but checking
+whether something escapes its sandbox and escalates privileges is not how I want
+to spend an evening
+
+### Uniqueness
+
+As of June 2026, this project has no direct counterparts. It features Deno 2.x,
+Hono, Vite, React, and SolidJS within a Deno monorepo, yet there are no stable
+tutorials, no references, and no AI capable of generating it in a single shot.
+The complexity of the stack itself serves as proof of the manual effort required
+to build it
+
+### What's Next?
+
+This is a technical showcase project. Sure, it works, you can run it locally or
+deploy it on Railway. But the real point is that this code is built for
+interviews: I want you to dive into different sections and ask, "Why did you
+choose this approach?" Basically, I designed it as something that would help me
+get hired by your team, but feel free to use it as an example for other people's
+technical deep dives too
 
 ---
 
-This project exists for a few practical reasons:
-
-- A tiny todo app says nothing, a massive project asks too much of everyone.
-  Grinding through take-homes is exhausting, and the math rarely works out
-- Running an unknown repo on your local machine with post-install scripts is a
-  risk. Docker helps, but checking whether something escapes its sandbox and
-  escalates privileges is not how I want to spend an evening
-- Deno 2.x, Hono, Vite, React and SolidJS in a Deno monorepo — no stable
-  tutorial, no reference, no AI that can one-shot it. The stack itself is proof
-  of the manual work behind it
-
----
-
-## About the code
-
-Think of this as my universal take-home — something I can bring to an interview
-and talk through. Some decisions are overkill, some are left rough on purpose.
-Why `useSyncExternalStore` over CSS variables, and much more. If you're planning
-to interview me, let's talk about it there.
-
----
-
-> [!WARNING]
-> **Epilepsy warning.** At high speeds the grid flashes rapidly. If you are
-> sensitive to flashing lights, keep the speed slider low or use the stop
-> button. Take care of yourself.
+> [!!WARNING] **Seizure/Epilepsy Trigger Warning** Please be aware that the grid
+> pattern flashes rapidly at high speeds. Individuals sensitive to flashing
+> lights should operate the speed slider at a low setting
 
 ---
 
